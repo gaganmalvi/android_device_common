@@ -53,7 +53,7 @@ then
 fi
 
 # Copy the various images in their staging location
-cp ${SRCPREFIX}$PRODUCT-img-$BUILD.zip tmp/$PRODUCT-$VERSION/image-$PRODUCT-$VERSION.zip
+cp ../../lineage-*-signed-img.zip tmp/$PRODUCT-$VERSION/image-$PRODUCT-$VERSION.zip
 if test "$XLOADER" != ""
 then
   cp tmp/RADIO/$XLOADERSRC tmp/$PRODUCT-$VERSION/xloader-$DEVICE-$XLOADER.img
